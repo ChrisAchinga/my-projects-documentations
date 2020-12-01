@@ -39,7 +39,7 @@ const features = [
   },
 ]
 
-function Feature({ imageUrl, title, description }) {
+const Feature = ({ imageUrl, title, description }) => {
   const imgUrl = useBaseUrl(imageUrl)
   return (
     <div className={classnames('col col--4', styles.feature)}>

@@ -1,28 +1,28 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'ChrisDev',
+  tagline: 'Projects Documentations',
+  url: 'https://chrisdev-wiki.vercel.app/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ChrisAchinga', // Usually your GitHub org/user name.
+  projectName: 'my-project-documentations', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'ChrisDev',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Projects',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/ChrisAchinga/my-projects-documentations',
           label: 'GitHub',
           position: 'right',
         },
@@ -57,7 +57,7 @@ module.exports = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/achinga_chris',
             },
           ],
         },
@@ -70,7 +70,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/ChrisAchinga',
             },
           ],
         },
@@ -92,7 +92,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://chrisdev.hashnode.dev/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
